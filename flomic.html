@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flomic</title>
+    <script src="https://kit.fontawesome.com/8d92229b07.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+
+            width: 100%;
+            margin: auto;
+            display: inline-block;
+        }
+
+        body {
+            margin: 0;
+            width: 100%;
+        }
+
+        .row1 {
+            background-color: rgb(19, 18, 18);
+            color: white;
+            padding: 10px 0;
+            width: 100%;
+        }
+
+        .left {
+            display: inline-block;
+            text-align: left;
+            width: 49%;
+            padding-left: 100px;
+        }
+
+        .right {
+            display: inline-block;
+            text-align: right;
+            width: 49%;
+            padding-right: 100px;
+            vertical-align: top;
+        }
+
+        li:hover {
+            background-color: rgb(47, 255, 47);
+        }
+
+        li {
+            display: inline-block;
+            padding: 20px;
+        }
+
+        .row2 {
+            background-image: url(images/Placeholder.jpeg);
+            color: white;
+            background-size: cover;
+            padding: 60px 95px 60px 64px;
+        }
+
+        .sec1 {
+            width: 33%;
+            display: inline-block;
+            padding: 25px;
+            opacity: 0.5;
+        }
+
+        .row2>div>div:first-child:hover {
+            opacity: 1;
+        }
+
+        .row2>div>div:nth-child(2):hover {
+            opacity: 1;
+        }
+
+        .row2>div>div:nth-child(3):hover {
+            opacity: 1;
+        }
+
+        .sec1>div:nth-child(1) {
+            background-color: rgba(242, 242, 242, 0.624);
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .sec1>div:nth-child(2) {
+            background-color: white;
+            color: black;
+            line-height: 3;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .sec1>div:nth-child(3) {
+            background-color: rgb(36, 216, 20);
+            color: rgb(253, 255, 253);
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .sec2 {
+            width: 52%;
+            display: inline-block;
+            padding: 30px 0 70px 100px;
+        }
+
+        .img {
+            background-image: url(images/Placeholder.jpeg);
+            width: 100%;
+            height: 400px;
+            text-align: center;
+            vertical-align: bottom;
+            color: white;
+        }
+
+        .con {
+            width: 100%;
+            margin: auto;
+            display: inline-block;
+        }
+
+        .box {
+            display: inline-block;
+            padding-left: 30px;
+            width: 40%;
+        }
+
+        .s {
+            padding-top: 50px;
+            padding-right: 40px;
+            padding-bottom: 10px;
+        }
+
+        #on {
+            margin: 0;
+        }
+
+        .row4 {
+            background-color: rgb(216, 216, 216);
+            padding: 0 100px;
+        }
+
+        .sec3 {
+            padding-bottom: 50px;
+        }
+
+        .box1 {
+            width: 49.6%;
+            padding-right: 10px;
+            display: inline-block;
+        }
+
+        .box2 {
+            width: 49.5%;
+            padding-left: 10px;
+            display: inline-block;
+            margin-left: 6px;
+        }
+
+        .half {
+            width: 40.3%;
+            display: inline-block;
+        }
+
+        .half1 {
+            background-color: orange;
+            width: 59.6%;
+            display: inline-block;
+            height: 153.69px;
+            padding-left: 20px;
+            vertical-align: top;
+        }
+
+        .wid {
+            padding-top: 20px;
+            padding-bottom: 30px;
+            background-color: rgb(56, 55, 55);
+            color: grey;
+        }
+
+        .f1 {
+            width: 50%;
+            display: inline-block;
+            padding-left: 100px;
+            vertical-align: top;
+        }
+
+        .f2 {
+            width: 20%;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .f3 {
+            width: 25%;
+            display: inline-block;
+            vertical-align: top;
+            padding-right: 41px;
+        }
+
+        .mi a {
+            text-decoration: none;
+            color: yellowgreen;
+        }
+
+        .png {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            padding-left: 20px;
+            width: 60%;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .wid2 {
+            background-color: black;
+            color: gray;
+            padding-top: 4px;
+            padding-bottom: 7px;
+        }
+
+        .foot-last {
+            padding-left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="row1">
+            <div class="container">
+                <div class="left">Link 1 | Link2 | Link3 | Link4 | Link5 | Link6 |</div>
+                <div class="right">+00 (123) 456 7890 | EMAIL@DOMAIN.COM</div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="row1">
+            <div class="container">
+                <div class="left"><img src="images/hi.png" alt="hi" width="100px"></div>
+                <nav class="right">
+                    <ul style="list-style: none; display: inline-block;">
+                        <li>Home</li>
+                        <li>Dropdown</li>
+                        <li>Page</li>
+                        <li>Link Test</li>
+                        <li>Link Text</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------------->
+        <div class="row2">
+            <div class="container">
+                <div class="sec1">
+                    <div>
+                        <h3>QUISQUE VEHICULA URNA AMET</h3>
+                    </div>
+                    <div>
+                        ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper
+                        ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper
+                        ullamcorper
+                    </div>
+                    <div>Read More &raquo;</div>
+                </div>
+                <div class="sec1">
+                    <div>
+                        <h3>QUISQUE VEHICULA URNA AMET</h3>
+                    </div>
+                    <div>
+                        ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper
+                        ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper
+                        ullamcorper
+                    </div>
+                    <div>Read More &raquo;</div>
+                </div>
+                <div class="sec1">
+                    <div>
+                        <h3>QUISQUE VEHICULA URNA AMET</h3>
+                    </div>
+                    <div>
+                        ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper
+                        ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper
+                        ullamcorper
+                    </div>
+                    <div>Read More &raquo;</div>
+                </div>
+            </div>
+        </div>
+        <!-- -------------------------------------------------------------------------------------------- -->
+        <div class="row3">
+            <div class="container">
+                <div class="sec2">
+                    <div class="hed" style="padding-bottom: 30px;">
+                        <h3>MALCENCE LIBERO NUNC EU RAT</h3>
+                    </div>
+                    <div class="img"></div>
+                    <div class="a"
+                        style="background-image: url(images/Placeholder.jpeg); opacity: 0.93; padding: 20px;text-align: center;color: white;">
+                        <h3>QUISQUE VEHICULA URNA AMET</h3>
+                        <div>Aneneen simper elements tells ud palcer leo questing vechicular urna sit amet</div>
+                        <div style="padding: 10px;"><button
+                                style="background-color:rgba(17, 16, 16, 0.2); padding: 10px; cursor: pointer; border-color: greenyellow;color: greenyellow; ">
+                                Read More &raquo; </button></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="hed" style="padding-bottom: 30px;">
+                        <h3 id="on">MALCENCE LIBERO NUNC EU RAT</h3>
+                    </div>
+                    <div class="s">
+                        <img src="images/flomic-abele.png" alt="" align="left" style="padding-right: 20px;">
+                        <div>
+                            <h3 id="on">FASSELES LIBERO NUNC EU </h3>
+                        </div>
+                        <div>Aneneen simper elements tells ud palcer leo questing vechicular urna sit amet</div>
+                        <div style="padding: 4px;"><button
+                                style="background-color: white; padding: 10px; cursor: pointer; border-color: greenyellow;color: greenyellow; ">
+                                Read More &raquo; </button></div>
+                    </div>
+                    <hr>
+                    <div class="s">
+                        <img src="images/flomic-abele.png" alt="" align="left" style="padding-right: 20px;">
+                        <div>
+                            <h3 id="on">FASSELES LIBERO NUNC EU </h3>
+                        </div>
+                        <div>Aneneen simper elements tells ud palcer leo questing vechicular urna sit amet</div>
+                        <div style="padding: 4px;"><button
+                                style="background-color: white; padding: 10px; cursor: pointer; border-color: greenyellow;color: greenyellow; ">
+                                Read More &raquo; </button></div>
+                    </div>
+                    <hr>
+                    <div class="s">
+                        <img src="images/flomic-abele.png" alt="" align="left" style="padding-right: 20px;">
+                        <div>
+                            <h3 id="on">FASSELES LIBERO NUNC EU </h3>
+                        </div>
+                        <div>Aneneen simper elements tells ud palcer leo questing vechicular urna sit amet</div>
+                        <div style="padding: 4px;"><button
+                                style="background-color: white; padding: 10px; cursor: pointer; border-color: greenyellow;color: greenyellow; ">
+                                Read More &raquo; </button></div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------------------------------------------------------------------------- -->
+        <div class="row4">
+            <div class="container">
+                <h3 style="text-align: center;">DONE FACILUS VOLIPTAL LINGA NEW EAGLE</h3>
+                <div style="text-align: center;padding-bottom: 50px;">Aneneen simper elements tells ud palcer leo
+                    questing vechicular urna sit amet</div>
+                <div class="sec3" width="100%">
+                    <div class="box1">
+                        <div class="half">
+                            <img src="images/flomic.png" alt="" width="100%">
+                        </div>
+                        <div class="half1">
+                            <h3> QUISQUE VEHICULA URNA SIT AMET PULVINAR DAPIBUS </h3>
+                            <input type="button" value="READ MORE >>"
+                                style="background-color:rgb(237, 168, 40); color: aliceblue; border: solid aliceblue; padding: 10px; cursor: pointer;">
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <div class="half">
+                            <img src="images/flomic.png" alt="" width="100%">
+                        </div>
+                        <div class="half1" style="background-color: skyblue;">
+                            <h3> QUISQUE VEHICULA URNA SIT AMET PULVINAR DAPIBUS </h3>
+                            <input type="button" value="READ MORE >>"
+                                style="background-color:skyblue; color: aliceblue; border: solid aliceblue; padding: 10px; cursor: pointer;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </main>
+    <!-- ----------------------------------------------------------------------------------------------- -->
+    <footer>
+        <div class="foot">
+            <div class="container">
+                <div class="wid">
+                    <div class="f1">
+                        <h3>LOREM IPSUM DOLOR</h3>
+                        <hr>
+                        <p>
+                            Donec sed utilries eros. Nulla facillsi. Aliquam puruas urna, porta non faucibus nec, luctus
+                            vitae.
+                            Suspendisse potenti. Morbi sollicitudin viverra urna, vel auctor purus volutpat vel.
+                        </p>
+                        <p><span>&#9741;</span> Street Name& Number, Town, Postcode/Zip</p>
+                        <p><span>&#9990;</span> +00 (123) 456 789</p>
+                        <p><span>&#9993;</span> info@domain.com</p>
+                    </div>
+                    <div class="f2">
+                        <h3>QUICK LINK</h3>
+                        <hr>
+                        <div class="mi">
+                            <h4> <a href="#">Home page</a></h4>
+                            <h4> <a href="#">Blog</a></h4>
+                            <h4> <a href="#">Gallery</a></h4>
+                            <h4> <a href="#">Portfolio</a></h4>
+                            <h4> <a href="#">Contact us</a></h4>
+                        </div>
+                    </div>
+                    <div class="f3">
+                        <h3>KEEP IN TOUCH</h3>
+                        <hr>
+                        <div>
+                            <input type="email" name="e" placeholder="MAIL"
+                                style="background-color: black;color: white;padding: 8px;border-radius: 5px;">
+                            <p><input type="submit" value="SUBMIT"
+                                    style="background-color: greenyellow;color: white;padding: 8px;border-radius: 5px;cursor: pointer;">
+                            </p>
+                        </div>
+                        <div style="height: 70px;">
+                        </div>
+                        <div class="png">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-github"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-google-plus-g"></i>
+                            <i class="fa-solid fa-wifi"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wid2">
+                <div class="foot-last">
+                    <h5>Copyright &copy; 2023-All Rights Reserved - Flomic</h5>
+                </div>
+            </div>
+    </footer>
+</body>
+
+</html>
